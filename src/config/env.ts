@@ -5,7 +5,7 @@ type EnvironmentType = {
 }
 
 const Environment: EnvironmentType = {
-    APIURL: "",
+    APIURL: "http://127.0.0.1:8055",
     APPURL: "",
     mode: 'dev'
 }
