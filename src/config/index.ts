@@ -1,5 +1,3 @@
-import Environment from "./env";
+import Environment from './env';
 
-export {
-    Environment
-}
+export { Environment };

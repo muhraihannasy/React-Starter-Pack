@@ -1,5 +1,3 @@
-import Axios from "./api";
+import Axios from './api';
 
-export {
-    Axios,
-}
+export { Axios };

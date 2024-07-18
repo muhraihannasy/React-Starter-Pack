@@ -1,8 +1,11 @@
-import { useQuery } from "@tanstack/react-query";
+import { useQuery } from '@tanstack/react-query';
 
-import {  getProducts } from "./fetcher";
-
+import { getProducts } from './fetcher';
 
 export function useGetProducts() {
-    return useQuery({queryKey: ['products'], queryFn: getProducts, staleTime: 10000})
+  return useQuery({
+    queryKey: ['products'],
+    queryFn: getProducts,
+    staleTime: 10000
+  });
 }
